@@ -232,7 +232,7 @@ const Student = () => {
                 <Input id="dob" name="dob" type="text" value={age} disabled onChange={(e)=>{setAge(e.target.value)}}/>
               </FormGroup>
               <FormGroup className='box'>
-                <Label for="exampleSelect">Select</Label>
+                <Label for="exampleSelect">Class Name</Label>
                 <Input id="exampleSelect" name="select" type="select" value={classId} onChange={(e)=>{setClassId(e.target.value)}}>
                   <option value="">--select--</option>
                   {
